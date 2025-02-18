@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Red+Rose:wght@300..700&display=swap');
+
+body {
+    background-color: #c8201c; /* Cor de fundo padrão para o body, caso necessário */
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{ 
+    width: 9px;
+}
+
+body::-webkit-scrollbar-track{ 
+    background-color:#313131;
+}
+body::-webkit-scrollbar-thumb{ 
+    background-color: #c8201c;
+    border-radius: 20px;
+}
+.container {
+    width: 100%;
+    max-width: 100%; /* Define um limite de largura */
+    margin: 0 auto; 
+    background: linear-gradient(0deg, rgba(255,0,0,0.7371323529411764) 0%, rgba(34,34,34,0.04805672268907568) 60%),
+                url(img/fundo1.png); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
+.container-2 {
+    display: flex;
+        width: 100%;
+        max-width: 100%; /* Define um limite de largura */
+        margin: 0 auto; 
+        background: linear-gradient(0deg, rgba(34,34,34,0.04805672268907568) 7%, rgba(255,0,0,0.7371323529411764) 86%),
+                    url(img/fundo2.png); 
+        background-size: cover;
+        background-position: center;
+        height: 100vh; 
+    }
+    .container-3 {
+        display: flex;
+            width: 100%;
+            max-width: 100%; /* Define um limite de largura */
+            margin: 0 auto; 
+            background:linear-gradient(0deg, rgba(255,0,0,0.7371323529411764) 0%, rgba(34,34,34,0.04805672268907568) 60%) ,
+                        url(img/fundo2.png); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh; 
+        }
+        .container-4 {
+            
+                width: 100%;
+                max-width: 100%; /* Define um limite de largura */
+                margin: 0 auto; 
+             background-color: #80110f;
+margin-top: 300px;
+                height: 17vh; 
+            }
+        
+    
+
+
+/* Barra de topo */
+.top-bar {
+    display: flex;
+    justify-content: space-between; /* Mantém o título à esquerda e os itens à direita */
+    align-items: center; /* Alinha os elementos verticalmente */
+    padding: 10px 20px;
+    
+    
+}
+
+/* Estilo do título */
+.top-bar h1 {
+    color: azure;
+    font-family: "Oswald", serif;
+    margin: 0;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+/* Container dos itens de navegação */
+.inf {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilo dos itens de navegação */
+.inf p {
+    color: azure;
+    font-weight: 200;
+    font-family: "Oswald", serif;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+/* Efeito ao passar o mouse */
+.inf p:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.boasvindas p{
+  
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Oswald", serif;
+   color: azure;
+   text-align: center;
+   margin-top: 300px;
+    
+}
+
+.boasvindas h1{ 
+    transition: 0.5s;
+margin-top: -30px;
+    font-size: 80px;
+    font-weight: 400;
+    font-family: "Oswald", serif;
+    text-align: center;
+    color: azure;
+}
+.boasvindas span{ 
+    font-size: 80px;
+    font-weight: 400;
+    font-family: "Oswald", serif;
+    text-align: center;
+    color: azure;
+    transition: 0.5s;
+}
+.boasvindas span:hover{
+    color: red;
+ }
+ .boasvindas h2{ 
+    font-weight: 200;
+    color: azure;
+    text-align: center;
+    font-family: "Oswald", serif;
+    margin-top: -40px;
+ }
+ .sociais {
+    text-align: center;
+    color: azure;
+}
+.sociais a{ 
+    color: azure;
+    
+}
+.sociais i { 
+    font-size: 30px; 
+    margin: 10px; 
+    transition: 0.5s;
+}
+.sociais i:hover{
+    transform: translateY(-5px); /* Levanta o ícone */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona um leve sombreamento */
+}
+.fa-linkedin:hover{ 
+    color: rgb(107, 107, 197);
+}
+.fa-github:hover{
+color: black;
+}
+.fa-envelope:hover{
+color: rgb(255, 0, 0);
+}
+.fa-arrow-down{
+    color: azure;
+}
+
+.sobre h1{ 
+    color: #ffffff;
+    margin-top: 200px;
+    margin-left: 300px;
+    font-family: "Oswald", serif;
+    font-size: 60px;
+}
+
+.sobre p{ 
+    color: aliceblue;
+    font-family: "Oswald", serif;
+    font-weight: 300;
+    margin-left: 300px;
+    font-size: 25px;
+    max-width: 1100px;
+   
+}
+.fa-html5{
+    padding: 10px;
+    margin-left: 300px;
+    font-size: 70px;
+    color: orange;
+    background-color: rgb(66, 66, 66);
+    border-bottom: 3px solid rgb(255, 0, 0);
+    transition: 0.5s;
+}
+.fa-css3-alt{
+    margin-left: 50px;
+     padding: 10px;
+    font-size: 70px;
+    color: rgb(121, 121, 245);
+    background-color: rgb(66, 66, 66);
+    border-bottom: 3px solid rgb(255, 0, 0);
+    transition: 0.5s;
+
+}
+.fa-js{
+    margin-left: 50px;
+    background-color: rgb(66, 66, 66);
+    color: yellow;
+    padding: 10px;
+    font-size: 70px;
+    border-bottom: 3px solid rgb(255, 0, 0);
+    transition: 0.5s;
+}
+.fa-java{
+    margin-left: 50px;
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 70px;
+    border-bottom: 3px solid rgb(255, 0, 0);
+    transition: 0.5s;
+}
+.fa-php{
+    margin-left: 50px;
+    background-color: rgb(66, 66, 66);
+    color: rgb(143, 154, 255);
+    padding: 10px;
+    font-size: 70px;
+    border-bottom: 3px solid rgb(255, 0, 0);
+    transition: 0.5s;
+}
+.fa-bootstrap{
+    margin-left: 50px;
+    background-color: rgb(66, 66, 66);
+    color: rgb(154, 7, 252);
+    padding: 10px;
+    font-size: 70px;
+    border-bottom: 3px solid rgb(255, 0, 0);
+    transition: 0.5s;
+}
+.fa-python{ 
+    margin-left: 50px;
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 70px;
+    border-bottom: 3px solid rgb(255, 0, 0);
+    transition: 0.5s;
+
+}
+.fa-python:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+.fa-html5:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+.fa-css3-alt:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+.fa-bootstrap:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+.fa-bootstrap:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+.fa-js:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+.fa-java:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2); 
+}
+.fa-php:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+.filhadaputa{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: "Oswald", serif;
+    font-size: 60px;
+}
+.exemploimg {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    cursor: pointer;
+    display: inline-block;
+}
+.exemploPS{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.pPS{ 
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+
+ margin-left: 560px;
+ margin-top: -400px;
+ color: white;
+ font-family: "Oswald", serif;
+ font-size: 20px;
+}
+.pPSsobre{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    font-weight: 10;
+    margin-left: 560px;
+    color: white;
+ font-family: "Oswald", serif;
+ font-size: 15px;
+ }
+
+ .exemploSP{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    margin-left: 400px;
+    margin-top: 100px;
+    border-radius: 20px;
+    width: 500px;
+}
+.Spotifysobre{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    margin-top: 20px;
+    font-weight: 10;
+    margin-left: 1465px;
+    color: white;
+ font-family: "Oswald", serif;
+ font-size: 15px;
+}
+.pSP{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    margin-left: 1465px;
+    margin-top: -151px;
+ color: rgb(255, 255, 255);
+ font-family: "Oswald", serif;
+ font-size: 20px;
+}
+.exemploLOGIN{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    margin-left: 50px;
+    margin-top: 300px;
+    border-radius: 20px;
+    width: 500px;
+}
+.pLOGIN{
+    opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    margin-left: 565px;
+    margin-top: -506px;
+ color: rgb(255, 255, 255);
+ font-family: "Oswald", serif;
+ font-size: 20px;
+}
+.pLOGINsobre{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    margin-top: 20px;
+    font-weight: 10;
+    margin-left: 565px;
+    color: white;
+ font-family: "Oswald", serif;
+ font-size: 15px;
+}
+.exemploMC{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    margin-left: 950px;
+    margin-top: -170px;
+    border-radius: 20px;
+    width: 500px;
+}
+.pMC{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    margin-left: 1465px;
+    margin-top: -270px;
+ color: rgb(255, 255, 255);
+ font-family: "Oswald", serif;
+ font-size: 20px;
+}
+.pMCsobre{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    margin-top: 20px;
+    font-weight: 10;
+    margin-left: 1465px;
+    color: rgb(255, 255, 255);
+ font-family: "Oswald", serif;
+ font-size: 15px;
+}
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.container-4 p{ 
+    color: rgb(255, 255, 255);
+ font-family: "Oswald", serif;
+ margin-left: 30px;
+}
+.container-4 h2{
+    margin-top: 10px;
+    margin-left: 30px; 
+    color: rgb(255, 255, 255);
+ font-family: "Oswald", serif;
+}
